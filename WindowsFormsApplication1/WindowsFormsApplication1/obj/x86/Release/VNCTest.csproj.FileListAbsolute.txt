@@ -1,0 +1,11 @@
+D:\Users\user-pc\Desktop\The Nagish Dekstop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\WindowsFormsApplication1.exe
+D:\Users\user-pc\Desktop\The Nagish Dekstop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\WindowsFormsApplication1.pdb
+D:\Users\user-pc\Desktop\The Nagish Dekstop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\VncSharp.dll
+D:\Users\user-pc\Desktop\The Nagish Dekstop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Release\VNCTest.csprojResolveAssemblyReference.cache
+D:\Users\user-pc\Desktop\The Nagish Dekstop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Release\RemoteDesktopTest.NagishINC.resources
+D:\Users\user-pc\Desktop\The Nagish Dekstop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Release\WindowsFormsApplication1.Properties.Resources.resources
+D:\Users\user-pc\Desktop\The Nagish Dekstop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Release\RemoteDesktopTest.Form2.resources
+D:\Users\user-pc\Desktop\The Nagish Dekstop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Release\VNCTest.csproj.GenerateResource.Cache
+D:\Users\user-pc\Desktop\The Nagish Dekstop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Release\WindowsFormsApplication1.exe
+D:\Users\user-pc\Desktop\The Nagish Dekstop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Release\WindowsFormsApplication1.pdb
+D:\Users\user-pc\Desktop\The Nagish Dekstop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\VncSharp.pdb

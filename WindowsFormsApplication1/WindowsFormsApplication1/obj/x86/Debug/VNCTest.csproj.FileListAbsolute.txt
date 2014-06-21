@@ -1,0 +1,44 @@
+C:\Users\win-7\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\win-7\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\win-7\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\VncSharp.dll
+C:\Users\win-7\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\win-7\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\RemoteDesktopTest.NagishINC.resources
+C:\Users\win-7\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\win-7\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\RemoteDesktopTest.Form2.resources
+C:\Users\win-7\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\win-7\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\win-7\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+C:\Users\win-7\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+C:\Users\win-7\Desktop\The Nagish Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+C:\Users\win-7\Desktop\The Nagish Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+C:\Users\win-7\Desktop\The Nagish Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\win-7\Desktop\The Nagish Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\win-7\Desktop\The Nagish Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\VncSharp.dll
+C:\Users\win-7\Desktop\The Nagish Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\win-7\Desktop\The Nagish Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\RemoteDesktopTest.NagishINC.resources
+C:\Users\win-7\Desktop\The Nagish Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\win-7\Desktop\The Nagish Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\RemoteDesktopTest.Form2.resources
+C:\Users\win-7\Desktop\The Nagish Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\win-7\Desktop\The Nagish Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\win-7\Desktop\The Nagish Desktop\VNC + Sockets\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+C:\Users\win-7\Desktop\The Nagish Desktop\VNC + Sockets\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+C:\Users\win-7\Desktop\The Nagish Desktop\VNC + Sockets\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\win-7\Desktop\The Nagish Desktop\VNC + Sockets\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\win-7\Desktop\The Nagish Desktop\VNC + Sockets\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\VncSharp.dll
+C:\Users\win-7\Desktop\The Nagish Desktop\VNC + Sockets\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\win-7\Desktop\The Nagish Desktop\VNC + Sockets\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\RemoteDesktopTest.NagishINC.resources
+C:\Users\win-7\Desktop\The Nagish Desktop\VNC + Sockets\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\win-7\Desktop\The Nagish Desktop\VNC + Sockets\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\win-7\Desktop\The Nagish Desktop\VNC + Sockets\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\win-7\Desktop\The Nagish Desktop\VNC + Sockets\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\RemoteDesktopTest.Form2.resources
+D:\Users\user-pc\Desktop\The Nagish Dekstop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+D:\Users\user-pc\Desktop\The Nagish Dekstop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+D:\Users\user-pc\Desktop\The Nagish Dekstop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+D:\Users\user-pc\Desktop\The Nagish Dekstop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+D:\Users\user-pc\Desktop\The Nagish Dekstop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\VncSharp.dll
+D:\Users\user-pc\Desktop\The Nagish Dekstop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\RemoteDesktopTest.NagishINC.resources
+D:\Users\user-pc\Desktop\The Nagish Dekstop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\Users\user-pc\Desktop\The Nagish Dekstop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\RemoteDesktopTest.Form2.resources
+D:\Users\user-pc\Desktop\The Nagish Dekstop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\VNCTest.csproj.GenerateResource.Cache
+D:\Users\user-pc\Desktop\The Nagish Dekstop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\VNCTest.csprojResolveAssemblyReference.cache
+D:\Users\user-pc\Desktop\The Nagish Dekstop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\VncSharp.pdb
