@@ -1,0 +1,9 @@
+D:\Users\user-pc\Desktop\The Nagish Dekstop\VNCServer\VNCServer\bin\Release\VNCServer.exe
+D:\Users\user-pc\Desktop\The Nagish Dekstop\VNCServer\VNCServer\bin\Release\VNCServer.pdb
+D:\Users\user-pc\Desktop\The Nagish Dekstop\VNCServer\VNCServer\bin\Release\NVNC.dll
+D:\Users\user-pc\Desktop\The Nagish Dekstop\VNCServer\VNCServer\obj\x86\Release\VNCServer.csprojResolveAssemblyReference.cache
+D:\Users\user-pc\Desktop\The Nagish Dekstop\VNCServer\VNCServer\obj\x86\Release\VNCServer.StartingWindow.resources
+D:\Users\user-pc\Desktop\The Nagish Dekstop\VNCServer\VNCServer\obj\x86\Release\VNCServer.Properties.Resources.resources
+D:\Users\user-pc\Desktop\The Nagish Dekstop\VNCServer\VNCServer\obj\x86\Release\VNCServer.csproj.GenerateResource.Cache
+D:\Users\user-pc\Desktop\The Nagish Dekstop\VNCServer\VNCServer\obj\x86\Release\VNCServer.exe
+D:\Users\user-pc\Desktop\The Nagish Dekstop\VNCServer\VNCServer\obj\x86\Release\VNCServer.pdb

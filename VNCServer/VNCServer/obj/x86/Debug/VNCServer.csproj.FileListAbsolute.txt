@@ -1,0 +1,29 @@
+C:\Users\win-7\Desktop\The Nagish Desktop\VNCServer\VNCServer\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\win-7\Desktop\The Nagish Desktop\VNCServer\VNCServer\obj\x86\Debug\VNCServer.Properties.Resources.resources
+C:\Users\win-7\Desktop\The Nagish Desktop\VNCServer\VNCServer\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\win-7\Desktop\The Nagish Desktop\VNCServer\VNCServer\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\win-7\Desktop\The Nagish Desktop\VNCServer\VNCServer\bin\Debug\VNCServer.exe
+C:\Users\win-7\Desktop\The Nagish Desktop\VNCServer\VNCServer\bin\Debug\VNCServer.pdb
+C:\Users\win-7\Desktop\The Nagish Desktop\VNCServer\VNCServer\bin\Debug\NVNC.dll
+C:\Users\win-7\Desktop\The Nagish Desktop\VNCServer\VNCServer\obj\x86\Debug\VNCServer.exe
+C:\Users\win-7\Desktop\The Nagish Desktop\VNCServer\VNCServer\obj\x86\Debug\VNCServer.pdb
+C:\Users\win-7\Desktop\The Nagish Desktop\VNCServer\VNCServer\obj\x86\Debug\VNCServer.StartingWindow.resources
+C:\Users\win-7\Desktop\The Nagish Desktop\VNC + Sockets\VNCServer\VNCServer\obj\x86\Debug\VNCServer.exe
+C:\Users\win-7\Desktop\The Nagish Desktop\VNC + Sockets\VNCServer\VNCServer\obj\x86\Debug\VNCServer.pdb
+C:\Users\win-7\Desktop\The Nagish Desktop\VNC + Sockets\VNCServer\VNCServer\bin\Debug\VNCServer.exe
+C:\Users\win-7\Desktop\The Nagish Desktop\VNC + Sockets\VNCServer\VNCServer\bin\Debug\VNCServer.pdb
+C:\Users\win-7\Desktop\The Nagish Desktop\VNC + Sockets\VNCServer\VNCServer\bin\Debug\NVNC.dll
+C:\Users\win-7\Desktop\The Nagish Desktop\VNC + Sockets\VNCServer\VNCServer\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\win-7\Desktop\The Nagish Desktop\VNC + Sockets\VNCServer\VNCServer\obj\x86\Debug\VNCServer.Properties.Resources.resources
+C:\Users\win-7\Desktop\The Nagish Desktop\VNC + Sockets\VNCServer\VNCServer\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\win-7\Desktop\The Nagish Desktop\VNC + Sockets\VNCServer\VNCServer\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\win-7\Desktop\The Nagish Desktop\VNC + Sockets\VNCServer\VNCServer\obj\x86\Debug\VNCServer.StartingWindow.resources
+D:\Users\user-pc\Desktop\The Nagish Dekstop\VNCServer\VNCServer\obj\x86\Debug\VNCServer.exe
+D:\Users\user-pc\Desktop\The Nagish Dekstop\VNCServer\VNCServer\obj\x86\Debug\VNCServer.pdb
+D:\Users\user-pc\Desktop\The Nagish Dekstop\VNCServer\VNCServer\bin\Debug\VNCServer.exe
+D:\Users\user-pc\Desktop\The Nagish Dekstop\VNCServer\VNCServer\bin\Debug\VNCServer.pdb
+D:\Users\user-pc\Desktop\The Nagish Dekstop\VNCServer\VNCServer\bin\Debug\NVNC.dll
+D:\Users\user-pc\Desktop\The Nagish Dekstop\VNCServer\VNCServer\obj\x86\Debug\VNCServer.StartingWindow.resources
+D:\Users\user-pc\Desktop\The Nagish Dekstop\VNCServer\VNCServer\obj\x86\Debug\VNCServer.Properties.Resources.resources
+D:\Users\user-pc\Desktop\The Nagish Dekstop\VNCServer\VNCServer\obj\x86\Debug\VNCServer.csproj.GenerateResource.Cache
+D:\Users\user-pc\Desktop\The Nagish Dekstop\VNCServer\VNCServer\obj\x86\Debug\VNCServer.csprojResolveAssemblyReference.cache
