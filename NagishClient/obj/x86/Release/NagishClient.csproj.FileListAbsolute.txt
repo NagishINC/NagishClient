@@ -1,0 +1,20 @@
+D:\Users\user-pc\Desktop\The Nagish Dekstop\NagishClient (encapsulated version)\NagishClient\NagishClient\obj\x86\Release\NagishClient.csprojResolveAssemblyReference.cache
+D:\Users\user-pc\Desktop\The Nagish Dekstop\NagishClient (encapsulated version)\NagishClient\NagishClient\obj\x86\Release\NagishClient.Form1.resources
+D:\Users\user-pc\Desktop\The Nagish Dekstop\NagishClient (encapsulated version)\NagishClient\NagishClient\obj\x86\Release\NagishClient.Properties.Resources.resources
+D:\Users\user-pc\Desktop\The Nagish Dekstop\NagishClient (encapsulated version)\NagishClient\NagishClient\obj\x86\Release\NagishClient.csproj.GenerateResource.Cache
+D:\Users\user-pc\Desktop\The Nagish Dekstop\NagishClient (encapsulated version)\NagishClient\NagishClient\bin\Release\NagishClient.exe
+D:\Users\user-pc\Desktop\The Nagish Dekstop\NagishClient (encapsulated version)\NagishClient\NagishClient\bin\Release\NagishClient.pdb
+D:\Users\user-pc\Desktop\The Nagish Dekstop\NagishClient (encapsulated version)\NagishClient\NagishClient\bin\Release\VncSharp.dll
+D:\Users\user-pc\Desktop\The Nagish Dekstop\NagishClient (encapsulated version)\NagishClient\NagishClient\bin\Release\VncSharp.pdb
+D:\Users\user-pc\Desktop\The Nagish Dekstop\NagishClient (encapsulated version)\NagishClient\NagishClient\obj\x86\Release\NagishClient.exe
+D:\Users\user-pc\Desktop\The Nagish Dekstop\NagishClient (encapsulated version)\NagishClient\NagishClient\obj\x86\Release\NagishClient.pdb
+D:\Users\user-pc\Desktop\The Nagish Dekstop\NagishClient\NagishClient\bin\Release\NagishClient.exe
+D:\Users\user-pc\Desktop\The Nagish Dekstop\NagishClient\NagishClient\bin\Release\NagishClient.pdb
+D:\Users\user-pc\Desktop\The Nagish Dekstop\NagishClient\NagishClient\bin\Release\VncSharp.dll
+D:\Users\user-pc\Desktop\The Nagish Dekstop\NagishClient\NagishClient\bin\Release\VncSharp.pdb
+D:\Users\user-pc\Desktop\The Nagish Dekstop\NagishClient\NagishClient\obj\x86\Release\NagishClient.csprojResolveAssemblyReference.cache
+D:\Users\user-pc\Desktop\The Nagish Dekstop\NagishClient\NagishClient\obj\x86\Release\NagishClient.Form1.resources
+D:\Users\user-pc\Desktop\The Nagish Dekstop\NagishClient\NagishClient\obj\x86\Release\NagishClient.Properties.Resources.resources
+D:\Users\user-pc\Desktop\The Nagish Dekstop\NagishClient\NagishClient\obj\x86\Release\NagishClient.csproj.GenerateResource.Cache
+D:\Users\user-pc\Desktop\The Nagish Dekstop\NagishClient\NagishClient\obj\x86\Release\NagishClient.exe
+D:\Users\user-pc\Desktop\The Nagish Dekstop\NagishClient\NagishClient\obj\x86\Release\NagishClient.pdb

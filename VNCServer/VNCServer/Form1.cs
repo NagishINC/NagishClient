@@ -27,9 +27,11 @@ namespace VNCServer
         //private Thread serverThread;
         private string applicationDirectory;
         private Process serverProcess;
+        private bool connectionBroken = false;
 
-        private readonly int STILLCONNECTEDCODE = 100;
-        private readonly int DISCONNECTCODE = 404;
+        private readonly int STILLCONNECTEDCODE = 111;
+        private readonly int DISCONNECTCODE = 666;
+        private readonly char FRAME = '+';
         private int statusCodeToSend;
 
         public StartingWindow()
@@ -69,7 +71,7 @@ namespace VNCServer
             this.serverProcess = new Process();
             this.TCPServerInstantiate();
             this.serverProcess = new Process();
-            ProcessStartInfo startInfo = new ProcessStartInfo(this.applicationDirectory + "\\NagishVNCServerExecutable.exe");
+            ProcessStartInfo startInfo = new ProcessStartInfo(this.applicationDirectory + "\\NagishVNCServerExecutable");
             startInfo.WindowStyle = ProcessWindowStyle.Hidden;
             this.serverProcess.StartInfo = startInfo;
             this.serverProcess.Start();
@@ -98,23 +100,40 @@ namespace VNCServer
                 //Meaning no one had connected to the server, so no connection can be stopped.
                 //Nothing to do about that, basically, so just catching the exception.
             }*/
-            foreach (Process serverProc in Process.GetProcessesByName("NagishServerExecutable"))
+            foreach (Process serverProc in Process.GetProcessesByName("NagishVNCServerExecutable"))
             {
                 serverProc.Kill(); //Killing all the NagishServerExecutable processes. If some other guy uses this name for his process, then we'll also close his process. He stole our name. He deserves that.
             }
-            if (!this.serverProcess.HasExited) //As a... umm, way to secure the kill? :P
+            if (!this.serverProcess.HasExited) //As a way to, umm... secure the kill? :P
             {
-                this.serverProcess.Kill();
-                if (!this.serverProcess.HasExited)
+                if (!this.serverProcess.WaitForExit(200))
                 {
-                    MessageBox.Show("Error closing the server ;(\nDo something like, uhh, taskmgr=>processes=>end task for NagishServerExecutable.\nWe're so very professional.");
+                    //try
+                    //{
+                    this.serverProcess.Kill();
+                    if (!this.serverProcess.HasExited)
+                    {
+                        if (Process.GetProcessesByName("NagishServerExecutable").Length > 0)
+                        {
+                            MessageBox.Show("There seems to have been an error with closing the server.\nTry, uhh, taskmgr => processes => end task for NagishServerExecutable.\nWe're so very professional.");
+                        }
+                    }
+                    //}
+                    //catch (
                 }
             }
         }
 
         private void disconnectStatusCodeReceived()
         {
-            Action disconnect = () => this.stopServer();
+            Action disconnect = () =>
+            {
+                this.stopServer();
+                this.TCPServer.Server.Close();
+                this.TCPServer.Stop();
+                this.stopServerBt.Enabled = false;
+                this.startServerBt.Enabled = true;
+            };
             this.Invoke(disconnect);
         }
 
@@ -150,35 +169,66 @@ namespace VNCServer
                     int bytesRead, statusCode;
                     if (client.Connected)
                     {
-                        this.statusCodeToSend = this.STILLCONNECTEDCODE;
-                        while (true)
+                        System.Timers.Timer timer = new System.Timers.Timer();
+                        timer.Stop();
+                        timer.Elapsed += new ElapsedEventHandler((object caller, ElapsedEventArgs args) => 
                         {
-                            dataToReceive = new byte[client.ReceiveBufferSize];
-                            bytesRead = stream.Read(dataToReceive, 0, dataToReceive.Length);
-                            string dataRead = Encoding.UTF8.GetString(dataToReceive, 0, bytesRead);
-                            if (int.TryParse(dataRead, out statusCode))
+                            this.connectionBroken = true;
+                            this.disconnectStatusCodeReceived();
+                            throw new ApplicationException("Connection broken.");
+                        });
+                        timer.Interval = 600;
+                        try
+                        {
+                            timer.Stop();
+                            //timer.Start();
+                            this.statusCodeToSend = this.STILLCONNECTEDCODE;
+                            while (!this.connectionBroken)
                             {
-                                if (statusCode == this.DISCONNECTCODE)
+                                dataToReceive = new byte[client.ReceiveBufferSize];
+                                bytesRead = stream.Read(dataToReceive, 0, dataToReceive.Length);
+                                timer.Stop();
+                                string allDataRead = Encoding.UTF8.GetString(dataToReceive, 0, bytesRead);
+                                foreach (string uneditedDataRead in allDataRead.Split('~'))
                                 {
-                                    MessageBox.Show("Client had disconnected.");
-                                    this.disconnectStatusCodeReceived();
-                                    break;
-                                }
-                                else if (statusCode != this.STILLCONNECTEDCODE)
-                                {
-                                    MessageBox.Show("Connection broken (unidentified status code " + dataRead + " received from client).\nClosing server.");
-                                    this.disconnectStatusCodeReceived();
-                                    break;
+                                    if (uneditedDataRead == "") continue;
+                                    string dataRead = uneditedDataRead.Replace(this.FRAME.ToString(), "");
+                                    if (int.TryParse(dataRead, out statusCode))
+                                    {
+                                        if (statusCode == this.DISCONNECTCODE)
+                                        {
+                                            MessageBox.Show("Client had disconnected.");
+                                            this.disconnectStatusCodeReceived();
+                                            this.connectionBroken = true;
+                                            break;
+                                        }
+                                        else if (statusCode != this.STILLCONNECTEDCODE)
+                                        {
+                                            MessageBox.Show("Connection broken (unidentified status code " + dataRead + " received from client).\nClosing server.");
+                                            this.disconnectStatusCodeReceived();
+                                            this.connectionBroken = true;
+                                            break;
+                                        }
+                                        else
+                                        {
+                                            timer.Start();
+                                        }
+                                    }
+                                    else
+                                    {
+                                        MessageBox.Show("Invalid characters received.\nMessage was: " + dataRead + "\nBreaking the program's run.");
+                                        this.disconnectStatusCodeReceived();
+                                        this.connectionBroken = true;
+                                        break;
+                                    }
                                 }
                             }
-                            else
-                            {
-                                MessageBox.Show("Invalid characters received.\nMessage was: " + dataRead + "\nBreaking the program's run.");
-                                this.disconnectStatusCodeReceived();
-                                break;
-                            }
+                            //client.Close();
                         }
-                        //client.Close();
+                        catch (ApplicationException exc)
+                        {
+                            MessageBox.Show(exc.Message);
+                        }
                     }
                 }
             }
