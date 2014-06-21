@@ -1,9 +1,0 @@
-Updates in this version:
-* Solved this timing issue thing which caused the program to crash.
-* Broke the program. It gets stuck more often now. :(
-
-
-Previous updates:
-* A simple TCP connection is created along with the VNC connection.
-* The server's run can now be stopped and restarted safely using the "Stop Server" button.
-* The server can now be closed before a connection was made without an exception being thrown (or rather, without an uncaught exception).

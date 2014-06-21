@@ -1,7 +1,0 @@
-D:\Users\user-pc\Desktop\The Nagish Dekstop\vncsharp-1.0-src\VncSharp\bin\Debug\VncSharp.dll
-D:\Users\user-pc\Desktop\The Nagish Dekstop\vncsharp-1.0-src\VncSharp\bin\Debug\VncSharp.pdb
-D:\Users\user-pc\Desktop\The Nagish Dekstop\vncsharp-1.0-src\VncSharp\obj\Debug\VncSharp.PasswordDialog.resources
-D:\Users\user-pc\Desktop\The Nagish Dekstop\vncsharp-1.0-src\VncSharp\obj\Debug\VncSharp.RemoteDesktop.resources
-D:\Users\user-pc\Desktop\The Nagish Dekstop\vncsharp-1.0-src\VncSharp\obj\Debug\VncSharp.csproj.GenerateResource.Cache
-D:\Users\user-pc\Desktop\The Nagish Dekstop\vncsharp-1.0-src\VncSharp\obj\Debug\VncSharp.dll
-D:\Users\user-pc\Desktop\The Nagish Dekstop\vncsharp-1.0-src\VncSharp\obj\Debug\VncSharp.pdb

@@ -170,18 +170,17 @@ namespace VNCServer
                     if (client.Connected)
                     {
                         System.Timers.Timer timer = new System.Timers.Timer();
-                        timer.Stop();
                         timer.Elapsed += new ElapsedEventHandler((object caller, ElapsedEventArgs args) => 
                         {
                             this.connectionBroken = true;
                             this.disconnectStatusCodeReceived();
                             throw new ApplicationException("Connection broken.");
                         });
-                        timer.Interval = 600;
+                        timer.Interval = 5750;
                         try
                         {
                             timer.Stop();
-                            //timer.Start();
+                            timer.Start();
                             this.statusCodeToSend = this.STILLCONNECTEDCODE;
                             while (!this.connectionBroken)
                             {
